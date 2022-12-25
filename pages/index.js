@@ -83,13 +83,15 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image classname="object-cover" src={devstan} alt="image" />
+            <Image classname="object-cover mx-auto" src={devstan} alt="image" />
           </div>
         </section>
         {/* Second page */}
         <section>
           <div>
-            <h4 className="text-3xl py-1 dark:text-white">Services I offer</h4>
+            <h4 className="text-3xl py-1 mt-4 dark:text-white">
+              Services I offer
+            </h4>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
               Since the beginning of my journey as a freelance designer and
               developer, I&apos;ve done remote work for
