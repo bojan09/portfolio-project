@@ -59,7 +59,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10 ">
+          <div className="text-center p-10 py-10">
             <h2 className="text-4xl py-2 mx-auto text-teal-600 font-medium md:text-6xl">
               Bojan Stanimirovski
             </h2>
@@ -82,14 +82,14 @@ export default function Home() {
               <AiFillYoutube />
             </a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image classname="object-cover mx-auto" src={devstan} alt="image" />
           </div>
         </section>
         {/* Second page */}
         <section>
           <div>
-            <h4 className="text-3xl py-1 mt-4 dark:text-white">
+            <h4 className="text-3xl py-1 mt-10 dark:text-white">
               Services I offer
             </h4>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
